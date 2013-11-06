@@ -18,3 +18,10 @@ gen
 *.project
 .DS_Store
 target/
+
+# Gradle
+.gradle
+build
+
+# Android Studio
+*.iml

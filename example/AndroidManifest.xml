@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="7"
-        android:targetSdkVersion="16" />
+        android:targetSdkVersion="19" />
     
     <uses-permission android:name="android.permission.INTERNET"/>
 
@@ -17,7 +17,7 @@
         <activity
             android:name=".ExampleListActivity"
             android:configChanges="orientation|screenSize|screenLayout"
-            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
             android:uiOptions="splitActionBarWhenNarrow" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,7 +30,6 @@
         <activity android:name=".AttachExample" />
         <activity android:name=".anim.CustomScaleAnimation" />
         <activity android:name=".anim.CustomZoomAnimation" />
-        <activity android:name=".anim.CustomRotateAnimation" />
         <activity android:name=".anim.CustomSlideAnimation" />
         <activity android:name=".SlidingTitleBar" />
         <activity android:name=".SlidingContent" />
@@ -39,7 +38,7 @@
         <activity android:name=".fragments.ResponsiveUIActivity" />
         <activity
             android:name=".fragments.BirdActivity"
-            android:theme="@style/Theme.Sherlock.Light.DarkActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity android:name="com.crittercism.NotificationActivity"/>
     </application>
 

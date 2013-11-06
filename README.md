@@ -37,10 +37,7 @@ you need, like R.java, etc.
 
 Setup with ActionBarSherlock
 ----------------------------
-* Setup as above.
-* Checkout a clean copy of [ActionBarSherlock][2] and import into your Eclipse workspace.
-* Add ActionBarSherlock as a dependency to SlidingMenu
-* Go into the SlidingActivities that you plan on using make them extend Sherlock___Activity instead of ___Activity. 
+* TODO. For now, consider to use the new AppCompat libraries.
 
 How to Integrate this Library into Your Projects
 ------------------------------------------------
@@ -56,8 +53,6 @@ __2.__      You can embed the SlidingMenu at the Activity level by making your A
 `setBehindContentView`, which has the same syntax as setContentView. `setBehindContentView` will place 
 the view in the "behind" portion of the SlidingMenu. You will have access to the `getSlidingMenu` method so you can
 customize the SlidingMenu to your liking.
-* If you want to use another library such as ActionBarSherlock, you can just change the SlidingActivities to extend
-the SherlockActivities instead of the regular Activities.
 
 __3.__      You can use the SlidingMenu view directly in your xml layouts or programmatically in your Java code.
 * This way, you can treat SlidingMenu as you would any other view type and put it in crazy awesome places like in the
