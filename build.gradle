@@ -1,25 +1,21 @@
 buildscript {
-  repositories {
-    mavenCentral()
-  }
+    repositories {
+        mavenCentral()
+    }
 
-  dependencies {
-    classpath 'com.android.tools.build:gradle:0.6.+'
-  }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.1.3'
+    }
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '1.8'
+    gradleVersion = '2.3'
 }
 
 allprojects {
-  group = 'com.jeremyfeinstein.slidingmenu'
+    group = 'com.jeremyfeinstein.slidingmenu'
 
-  repositories {
-    mavenCentral()
-  }
-
-  tasks.withType(Compile) {
-    options.encoding = "UTF-8"
-  }
+    repositories {
+        mavenCentral()
+    }
 }
